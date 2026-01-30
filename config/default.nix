@@ -7,6 +7,7 @@
     ./modules/plugins/indent-blankline.nix
     ./modules/plugins/lsp.nix
     ./modules/plugins/lualine.nix
+    ./modules/plugins/render-markdown.nix
     ./modules/plugins/treesitter.nix
     ./modules/plugins/tv.nix
     ./modules/plugins/which-key.nix
