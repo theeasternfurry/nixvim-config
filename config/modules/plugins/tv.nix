@@ -1,0 +1,3 @@
+{
+  plugins.tv.enable = true;
+}

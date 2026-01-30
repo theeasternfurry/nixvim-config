@@ -7,6 +7,7 @@
     ./modules/plugins/lsp.nix
     ./modules/plugins/lualine.nix
     ./modules/plugins/treesitter.nix
+    ./modules/plugins/tv.nix
     ./modules/plugins/which-key.nix
     ./modules/plugins/yazi.nix
 
