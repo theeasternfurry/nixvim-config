@@ -7,6 +7,7 @@
     ./modules/plugins/treesitter.nix
     ./modules/plugins/yazi.nix
 
+    ./files.nix
     ./options.nix
   ];
 }
