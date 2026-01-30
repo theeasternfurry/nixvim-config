@@ -6,8 +6,10 @@
     ./modules/plugins/lsp.nix
     ./modules/plugins/lualine.nix
     ./modules/plugins/treesitter.nix
+    ./modules/plugins/which-key.nix
     ./modules/plugins/yazi.nix
 
+    ./keymaps.nix
     ./files.nix
     ./options.nix
   ];

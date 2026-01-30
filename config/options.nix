@@ -1,4 +1,8 @@
 {
+  globals = {
+    mapleader = " ";
+    maplocalleader = " ";
+  };
   opts = {
     # Line numbers
     number = true;
