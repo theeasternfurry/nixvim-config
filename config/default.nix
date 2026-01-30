@@ -1,10 +1,12 @@
 {
   # Import all your configuration modules here
   imports = [
-    ./bufferline.nix
-    ./lsp.nix
-    ./lualine.nix
-    ./treesitter.nix
-    ./yazi.nix
+    ./modules/plugins/bufferline.nix
+    ./modules/plugins/lsp.nix
+    ./modules/plugins/lualine.nix
+    ./modules/plugins/treesitter.nix
+    ./modules/plugins/yazi.nix
+
+    ./options.nix
   ];
 }
