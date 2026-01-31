@@ -16,5 +16,9 @@
 
     # Highlight on search
     hlsearch = true;
+
+    # No folding by default
+    foldlevel = 99;
+    foldlevelstart = 99;
   };
 }
