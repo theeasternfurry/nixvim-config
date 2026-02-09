@@ -11,6 +11,7 @@
       };
       svelte.enable = true;
       ts_ls.enable = true;
+      ty.enable = true;
     };
   };
 }
