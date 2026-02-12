@@ -21,4 +21,5 @@
     foldlevel = 99;
     foldlevelstart = 99;
   };
+  colorschemes.rose-pine.enable = true;
 }
