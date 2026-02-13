@@ -22,4 +22,5 @@
     foldlevelstart = 99;
   };
   colorschemes.rose-pine.enable = true;
+  clipboard.providers.wl-copy.enable = true;
 }
