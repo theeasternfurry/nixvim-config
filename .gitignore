@@ -1,0 +1,7 @@
+result-*
+/nix
+/.direnv
+/.envrc
+/result
+*/result
+**/result
