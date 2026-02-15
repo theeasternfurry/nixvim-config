@@ -20,7 +20,12 @@
     # No folding by default
     foldlevel = 99;
     foldlevelstart = 99;
+
+    clipboard = "unnamedplus";
   };
   colorschemes.rose-pine.enable = true;
-  clipboard.providers.wl-copy.enable = true;
+  clipboard = {
+    register = "unnamedplus";
+    providers.wl-copy.enable = true;
+  };
 }
