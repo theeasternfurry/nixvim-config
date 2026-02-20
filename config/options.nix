@@ -21,6 +21,11 @@
     foldlevel = 99;
     foldlevelstart = 99;
 
+    # List spaces or tabs
+    list = true;
+    listchars = "tab:» ,trail:·,nbsp:+,extends:,precedes:";
+
+    # Clipboard
     clipboard = "unnamedplus";
   };
   colorschemes.rose-pine.enable = true;
