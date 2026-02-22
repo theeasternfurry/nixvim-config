@@ -11,6 +11,7 @@
     ./modules/plugins/lualine.nix
     ./modules/plugins/render-markdown.nix
     ./modules/plugins/treesitter.nix
+    ./modules/plugins/trouble.nix
     ./modules/plugins/tv.nix
     ./modules/plugins/which-key.nix
     ./modules/plugins/yazi.nix
