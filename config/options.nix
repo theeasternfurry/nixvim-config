@@ -27,10 +27,20 @@
 
     # Clipboard
     clipboard = "unnamedplus";
+
+    autoread = true;
+    autowrite = true;
   };
   colorschemes.rose-pine.enable = true;
   clipboard = {
     register = "unnamedplus";
     providers.wl-copy.enable = true;
   };
+  autoCmd = [
+    {
+      event = [ "FocusGained" "BufEnter" "CursorHold" "CursorHoldI" ];
+      pattern = "*";
+      command = "if mode() != 'c' | checktime | endif";
+    }
+  ];
 }
