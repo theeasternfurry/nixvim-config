@@ -68,5 +68,14 @@
         desc = "Quickfix List (Trouble)";
       };
     }
+    # Control
+    {
+      mode = "n";
+      key = "<C-a>";
+      action = "ggVG";
+      options = {
+        desc = "Select all text";
+      };
+    }
   ];
 }
