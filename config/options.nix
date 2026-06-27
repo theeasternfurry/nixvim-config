@@ -31,7 +31,10 @@
     autoread = true;
     autowrite = true;
   };
-  colorschemes.rose-pine.enable = true;
+  colorschemes.cyberdream = {
+    enable = true;
+    callSetup =  true;
+  };
   clipboard = {
     register = "unnamedplus";
     providers.wl-copy.enable = true;
@@ -43,4 +46,9 @@
       command = "if mode() != 'c' | checktime | endif";
     }
   ];
+  extraConfigLuaPre = ''
+    require("cyberdream").setup({
+      transparent = true,
+    })
+  '';
 }
