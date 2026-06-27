@@ -9,6 +9,14 @@
       };
     }
     {
+      mode = "n";
+      key = "<leader>tt";
+      action = ":CyberdreamToggleMode<CR>";
+      options = {
+        desc = "Toggle CyberDream theme";
+      };
+    }
+    {
       mode = ["x" "v"];
       key = "<Tab>";
       action = ">gv";

@@ -48,7 +48,12 @@
   ];
   extraConfigLuaPre = ''
     require("cyberdream").setup({
+      variant = "auto",
       transparent = true,
+      highlights = {
+        CursorLine = { bg = "NONE" };
+        CursorLineNr = { bg = "NONE" };
+      };
     })
   '';
 }
